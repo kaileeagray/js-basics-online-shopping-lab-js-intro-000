@@ -39,6 +39,7 @@ function viewCart() {
 
 function total() {
   var total = 0;
+  
   return total;
 }
 
