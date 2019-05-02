@@ -29,7 +29,7 @@ function viewCart() {
       if (c.length > 1 && i !== c.length - 1) {
         view += ", ";
       } else if (i === c.length - 1) {
-        
+        view += ", ";
       }
     }
     view += ".";
