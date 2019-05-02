@@ -28,6 +28,8 @@ function viewCart() {
       view += " at $" + c[i].itemPrice;
       if (c.length > 1 && i !== c.length - 1) {
         view += ", ";
+      } else if (i === c.length - 1) {
+        
       }
     }
     view += ".";
