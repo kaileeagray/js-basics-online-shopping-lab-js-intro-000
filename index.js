@@ -53,6 +53,8 @@ function removeFromCart(item) {
   if (index) {
     c.splice(index, 1);
     setCart(c);
+  } else {
+    return 'That item is not in your cart.'
   }
 }
 
