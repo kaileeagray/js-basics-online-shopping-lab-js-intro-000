@@ -19,7 +19,9 @@ function addToCart(item) {
 
 function viewCart() {
   var c = getCart();
-  
+  if (c.length === 0) {
+    
+  }
 }
 
 function total() {
