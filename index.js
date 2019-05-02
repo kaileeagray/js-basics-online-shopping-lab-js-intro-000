@@ -24,7 +24,7 @@ function viewCart() {
   } else {
     var view = "In your cart, you have ";
     for (var i = 0; i < c.length; i++) {
-
+      
     }
   }
 }
