@@ -48,7 +48,9 @@ function total() {
 
 function removeFromCart(item) {
   var c = getCart();
-  
+  if () {
+    
+  }
   setCart(c);
 }
 
