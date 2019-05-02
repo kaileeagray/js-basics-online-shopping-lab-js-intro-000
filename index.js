@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
   var c = getCart().push(item);
   setCart(c);
-  return getCart().length;
+  return c.length;
 }
 
 function viewCart() {
