@@ -19,6 +19,7 @@ function addToCart(item) {
 
 function viewCart() {
   var c = getCart();
+  
 }
 
 function total() {
