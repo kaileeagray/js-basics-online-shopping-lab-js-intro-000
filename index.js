@@ -49,7 +49,7 @@ function total() {
 function removeFromCart(item) {
   var c = getCart();
   if () {
-    
+    return ""That item is not in your cart.""
   }
   setCart(c);
 }
