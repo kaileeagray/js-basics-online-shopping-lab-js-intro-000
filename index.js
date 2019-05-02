@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  getCart()
+  setCart(getCart())
 }
 
 function viewCart() {
