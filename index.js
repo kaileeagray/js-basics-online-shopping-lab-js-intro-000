@@ -28,6 +28,7 @@ function viewCart() {
       view += "at " + c[i].itemPrice + ", "
     }
     view += ".";
+    return view;
   }
 }
 
