@@ -51,11 +51,10 @@ function removeFromCart(item) {
   var index = c.findIndex(x => x.itemName === item);
   console.log(item, index);
 
-    c.splice(index, 1);
   if (index) {
-    
+    c.splice(index, 1);
+    setCart(c);
   }
-  setCart(c);
 }
 
 function placeOrder(cardNumber) {
