@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  getCart().push({ itemName: name of the item, itemPrice: price of the item, });
+  getCart().push({ item: name of the item, itemPrice: price of the item, });
 }
 
 function viewCart() {
