@@ -52,7 +52,7 @@ function removeFromCart(item) {
   if (!!index) {
     return "That item is not in your cart.";
   } else {
-
+    
   }
   setCart(c);
 }
