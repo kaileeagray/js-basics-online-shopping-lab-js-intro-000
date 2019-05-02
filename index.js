@@ -52,7 +52,9 @@ function removeFromCart(item) {
   console.log(item, index);
 
     c.splice(index, 1);
-  
+  if (index) {
+    
+  }
   setCart(c);
 }
 
