@@ -50,7 +50,7 @@ function removeFromCart(item) {
   var c = getCart();
   var index = c.findIndex(x => x.itemName === item);
   console.log(item, index);
-  if (index) {
+  if (index > -1) {
     c.splice(index, 1);
     setCart(c);
   } else {
