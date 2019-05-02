@@ -26,9 +26,9 @@ function viewCart() {
     for (var i = 0; i < c.length; i++) {
       view += c[i].itemName;
       view += " at $" + c[i].itemPrice;
-      if (c.length > 1 && i !== c.length - 1) {
+      if (c.length > 1 && i !== c.length - 2) {
         view += ", ";
-      } else if (i === c.length - 1) {
+      } else if (i === c.length - 2) {
         view += ", and ";
       }
     }
