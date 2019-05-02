@@ -39,7 +39,7 @@ function viewCart() {
 
 function total() {
   var total = 0;
-  
+  var c = getCart();
   return total;
 }
 
