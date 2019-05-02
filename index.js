@@ -38,7 +38,7 @@ function viewCart() {
 }
 
 function total() {
-  return price;
+  return total;
 }
 
 function removeFromCart(item) {
