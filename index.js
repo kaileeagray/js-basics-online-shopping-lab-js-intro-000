@@ -40,7 +40,7 @@ function viewCart() {
 function total() {
   var total = 0;
   var c = getCart();
-  
+  for (var i = 0; i < c.length, i++)
   return total;
 }
 
