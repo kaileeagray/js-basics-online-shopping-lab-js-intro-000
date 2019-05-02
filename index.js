@@ -50,11 +50,9 @@ function removeFromCart(item) {
   var c = getCart();
   var index = c.findIndex(x => x.itemName === item);
   console.log(item, index);
-  if (!!index) {
-    return "That item is not in your cart.";
-  } else {
+
     c.splice(index, 1);
-  }
+  
   setCart(c);
 }
 
