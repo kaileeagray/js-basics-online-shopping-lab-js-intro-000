@@ -50,6 +50,8 @@ function removeFromCart(item) {
   var c = getCart();
   if () {
     return "That item is not in your cart.";
+  } else {
+    
   }
   setCart(c);
 }
