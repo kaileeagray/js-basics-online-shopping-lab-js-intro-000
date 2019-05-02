@@ -60,6 +60,6 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if (cardNumber) {
-    var message = "Your total cost is $71, which will be charged to the card 83296759.";
+    var message = "Your total cost is ${total()}, which will be charged to the card 83296759.";
   }
 }
